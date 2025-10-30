@@ -37,7 +37,7 @@ estimate2 <-  Estimate_Prototypical_SMART_Power( n_sims = 1000,
                                                  beta_a1 = .2 / 2, # 'small' Cohen's d in +1/-1 effect coding, given that sigma=1
                                                  beta_a2 = .5 / 2, # 'medium' Cohen's d in +1/-1 effect coding, given that sigma=1
                                                  beta_ixn = 0,
-                                                 xi_0 = .3,
+                                                 corr_eff = .3,
                                                  sigma = 1 )  # unbalanced R's 
 
  
